@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+
+% -------- AGENT CONTROL MACROS ----------
+\newcommand{\HASSUMMARY}{}
+\newcommand{\ENDIFSUMMARY}{}
+
+\newcommand{\HASSKILLS}{}
+\newcommand{\ENDIFSKILLS}{}
+
+\newcommand{\HASPROJECTS}{}
+\newcommand{\ENDIFPROJECTS}{}
+
+\newcommand{\HASEXPERIENCE}{}
+\newcommand{\ENDIFEXPERIENCE}{}
+
+\newcommand{\HASEDUCATION}{}
+\newcommand{\ENDIFEDUCATION}{}
+
+% -------- BASIC SETTINGS ----------
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setstretch{1.1}
+
+\titleformat{\section}
+  {\bfseries\large}
+  {}
+  {0pt}
+  {}
+
+\begin{document}
+
+% -------- HEADER ----------
+{\huge \textbf{\NAME}}\\
+\vspace{3pt}
+\EMAIL \ | \ \PHONE
+
+\vspace{12pt}
+
+% -------- SUMMARY ----------
+\HASSUMMARY
+\section*{Professional Summary}
+\SUMMARY
+\ENDIFSUMMARY
+\vspace{8pt}
+
+% -------- SKILLS ----------
+\HASSKILLS
+\section*{Technical Skills}
+\SKILLS
+\ENDIFSKILLS
+\vspace{8pt}
+
+% -------- EXPERIENCE ----------
+\HASEXPERIENCE
+\section*{Experience}
+\EXPERIENCE
+\ENDIFEXPERIENCE
+\vspace{8pt}
+
+% -------- PROJECT EXPERIENCE ----------
+\HASPROJECTS
+\section*{Project Experience}
+\PROJECTS
+\ENDIFPROJECTS
+\vspace{8pt}
+
+% -------- EDUCATION ----------
+\HASEDUCATION
+\section*{Education}
+\EDUCATION
+\ENDIFEDUCATION
+
+\end{document}
