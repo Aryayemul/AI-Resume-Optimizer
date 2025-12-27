@@ -1,4 +1,4 @@
-🚀 AI-Powered ATS Resume Builder & Career Assistant
+🚀AI-Powered ATS Resume Analyzer & Auto Resume Builder
 
 An end-to-end AI Resume Optimization Platform that parses resumes, generates missing job descriptions, calculates ATS scores, enhances resume content using LLMs, and converts everything into professional ATS-optimized PDF resumes using LaTeX (MiKTeX).
 
